@@ -10,32 +10,37 @@ inquirer.prompt([
   {
     type: "input",
     name: "name",
-    message: "What is your name?"
+    message: "What is your projects name?"
   },
   {
     type: "input",
     name: "name",
-    message: "What is your name?"
+    message: "please write a short description of your project?"
   },
   {
     type: "input",
     name: "name",
-    message: "What is your name?"
+    message: "What Kind of lisence should your project have?"
   },
   {
     type: "input",
     name: "name",
-    message: "What is your name?"
+    message: "What command should be run to install dependencies?"
   },
   {
     type: "input",
     name: "name",
-    message: "What is your name?"
+    message: "What command should be run to run tests?"
   },
   {
     type: "input",
     name: "name",
-    message: "What is your name?"
+    message: "What does the user need to know about using the repo?"
+  },
+  {
+    type: "input",
+    name: "name",
+    message: "What does the user need to know about contributing to the repo?"
   },
   
 
