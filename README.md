@@ -1,16 +1,30 @@
-Good Read.me Generator
- NAME:;lakdjf
 
-      PROJECT:;alsdkjf
+# Michael J Plichta
 
-      DESCRIPTION:;laskdjf
+![github-med](https://avatars2.githubusercontent.com/u/58678985?s=460&v=4)
+ 
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-      [![GitHub license](https://img.shields.io/badge/license-None-blue.svg)]
-      DEPENDENCIES:df
+## Project Name: 
+ professional-portfolio
 
-      TEST:adf
+## DESCRIPTION: 
+ This is my professional statement about me and linked information. 
 
-      REPO:as
+## INSTALL DEPENDENCIES: 
+`npm install`
 
-      FOLLOWERS:4
-      CONTRIBUTING:df
+## TEST: 
+`npm run tests`
+
+## REPO: 
+ Repo includes personal professional data. 
+
+## FOLLOWERS: 
+ 5
+
+## CONTRIBUTING: 
+ MIT allows for open source 
+
+## CONTACT: 
+ No contact information

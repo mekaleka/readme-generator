@@ -23,7 +23,7 @@ inquirer
       type: "list",
       message: "What Kind of lisence should your project have?",
       name: "license",
-      choices: ["MIT", "Apache 2.0", "Gp/3.0", "BSD 3", "None"]
+      choices: ["MIT", "Apache 2.0", "Gp/3.0", "BSD3", "None"]
     },
     {
       type: "input",
@@ -55,20 +55,38 @@ inquirer
     api.getUser(data.username).then(apidata => {
       console.log(apidata);
 
-      var readmeData = `Good Read.me Generator\n NAME:${data.name}\n
-      PROJECT:${data.projectname}\n
-      DESCRIPTION:${data.description}\n
-      [![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)]
-      DEPENDENCIES:${data.dependencies}\n
-      TEST:${data.test}\n
-      REPO:${data.repo}\n
-      FOLLOWERS:${apidata.data.followers}
-      CONTRIBUTING:${data.contributing}`;
+      var readmeData = `
+# ${data.name}
+
+![github-med](https://avatars2.githubusercontent.com/u/58678985?s=460&v=4)
+ 
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
+
+## Project Name: 
+ ${data.projectname}
+
+## DESCRIPTION: 
+ ${data.description}
+
+## INSTALL DEPENDENCIES: 
+\`${data.dependencies}\`
+
+## TEST: 
+\`${data.test}\`
+
+## REPO: 
+ ${data.repo}
+
+## FOLLOWERS: 
+ ${apidata.data.followers}
+
+## CONTRIBUTING: 
+ ${data.contributing}
+
+## CONTACT: 
+ ${apidata.data.email || "No contact information"}
+`;
       var filename = "README.md";
-      // data.name
-      //   .toLowerCase()
-      //   .split(" ")
-      //   .join("") + ".json";
 
       fs.writeFileSync(filename, readmeData, function(err) {
         if (err) {
@@ -82,8 +100,3 @@ inquirer
 
 const questions = [];
 
-// function writeToFile(fileName, data) {}
-
-// function init() {}
-
-// init();
