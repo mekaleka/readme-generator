@@ -18,6 +18,18 @@ inquirer.prompt([
     message: "please write a short description of your project?"
   },
   {
+    type: "checkbox",
+    message: "What Kind of lisence should your project have?",
+    name: "License",
+    choices: [
+      "MIT", 
+      "Apache 2.0", 
+      "Gp/3.0", 
+      "BSD 3",
+      "None"
+    ]
+  },
+  {
     type: "input",
     name: "name",
     message: "What Kind of lisence should your project have?"
