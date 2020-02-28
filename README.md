@@ -1,5 +1,5 @@
 
-# Michael J Plichta
+# Michael James Plichta
 
 ![github-med](https://avatars2.githubusercontent.com/u/58678985?s=460&v=4)
  
@@ -19,7 +19,7 @@
 - [Questions](#Questions)
 
 ## Description: 
- This app generates a good readme. 
+ This app creates a good readme.
 
 ## Install Dependencies: 
 `npm install`
@@ -28,10 +28,10 @@
 `npm run tests`
 
 ## Repository: 
- Have fun making a good readme. 
+ Keep creating good readme's.
 
 ## Contributing: 
- It's free with MIT.
+ Its free with MIT.
 
 ## Contact: 
  michaeljamesplichta@gmail.com
