@@ -75,28 +75,25 @@ inquirer
 - [Contact](#Contact)
 - [Questions](#Questions)
 
-### Description: 
+## Description: 
  ${data.description}
 
-### Install Dependencies: 
+## Install Dependencies: 
 \`${data.dependencies}\`
 
-### Test: 
+## Test: 
 \`${data.test}\`
 
-### Repository: 
+## Repository: 
  ${data.repo}
 
-### Contributing: 
+## Contributing: 
  ${data.contributing}
 
-### Followers: 
-${apidata.data.followers}
-
-### Contact: 
+## Contact: 
  ${apidata.data.email || "michaeljamesplichta@gmail.com"}
 
-### Questions
+## Questions
 If you have any questions please email me directly. Thank You 
 `;
       var filename = "README.md";
@@ -112,4 +109,3 @@ If you have any questions please email me directly. Thank You
   });
 
 const questions = [];
-

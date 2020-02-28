@@ -18,26 +18,23 @@
 - [Contact](#Contact)
 - [Questions](#Questions)
 
-### Description: 
- Generates a good READ.ME.
+## Description: 
+ This creates a good READme.
 
-### Install Dependencies: 
+## Install Dependencies: 
 `npm install`
 
-### Test: 
+## Test: 
 `npm run tests`
 
-### Repository: 
- Create a good READ.ME.
+## Repository: 
+ Keep doing READme's.
 
-### Contributing: 
- Contribute for free with MIT.
+## Contributing: 
+ Its free with MIT.
 
-### Followers: 
-5
-
-### Contact: 
+## Contact: 
  michaeljamesplichta@gmail.com
 
-### Questions
+## Questions
 If you have any questions please email me directly. Thank You 
