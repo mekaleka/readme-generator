@@ -1,5 +1,5 @@
 
-# Michael Plichta
+# Michael J Plichta
 
 ![github-med](https://avatars2.githubusercontent.com/u/58678985?s=460&v=4)
  
@@ -19,7 +19,7 @@
 - [Questions](#Questions)
 
 ## Description: 
- This creates a good READme.
+ This app generates a good readme. 
 
 ## Install Dependencies: 
 `npm install`
@@ -28,13 +28,15 @@
 `npm run tests`
 
 ## Repository: 
- Keep doing READme's.
+ Have fun making a good readme. 
 
 ## Contributing: 
- Its free with MIT.
+ It's free with MIT.
 
 ## Contact: 
  michaeljamesplichta@gmail.com
+
+## [Link to deployd App](https://mekaleka.github.io/readme-generator/)
 
 ## Questions
 If you have any questions please email me directly. Thank You 

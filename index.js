@@ -1,8 +1,13 @@
+
+//require inquirer
 var inquirer = require("inquirer");
+//require fs
 var fs = require("fs");
+//linking the api file. 
 var api = require("./Develop/utils/api.js");
 
 inquirer
+//prompt for input, questions and title name. 
   .prompt([
     {
       type: "input",
@@ -51,7 +56,9 @@ inquirer
       name: "username"
     }
   ])
+  //function gets user data and appends it. 
   .then(function(data) {
+    //inside object includes project name, titles, contents and links to user photo, license and email. 
     api.getUser(data.username).then(apidata => {
       console.log(apidata);
 
@@ -93,13 +100,16 @@ inquirer
 ## Contact: 
  ${apidata.data.email || "michaeljamesplichta@gmail.com"}
 
+## [Link to deployd App](https://mekaleka.github.io/readme-generator/)
+
 ## Questions
 If you have any questions please email me directly. Thank You 
 `;
       var filename = "README.md";
-
+      //fs to write file to filename and readmeData
       fs.writeFileSync(filename, readmeData, function(err) {
         if (err) {
+          //if no err then return success in the console. 
           return console.log(err);
         }
 
