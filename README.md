@@ -1,30 +1,43 @@
 
-# Michael J Plichta
+# Michael Plichta
 
 ![github-med](https://avatars2.githubusercontent.com/u/58678985?s=460&v=4)
  
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Project Name: 
- professional-portfolio
+ readme-generator
 
-## DESCRIPTION: 
- This is my professional statement about me and linked information. 
+## Table of Contents:
+- [Description](#Description)
+- [Install-Dependencies](#Install-Dependencies)
+- [Test](#Test)
+- [Repository](#Repository)
+- [Contributing](#Contributing)
+- [Followers](#Followers)
+- [Contact](#Contact)
+- [Questions](#Questions)
 
-## INSTALL DEPENDENCIES: 
+### Description: 
+ Generates a good READ.ME.
+
+### Install Dependencies: 
 `npm install`
 
-## TEST: 
+### Test: 
 `npm run tests`
 
-## REPO: 
- Repo includes personal professional data. 
+### Repository: 
+ Create a good READ.ME.
 
-## FOLLOWERS: 
- 5
+### Contributing: 
+ Contribute for free with MIT.
 
-## CONTRIBUTING: 
- MIT allows for open source 
+### Followers: 
+5
 
-## CONTACT: 
- No contact information
+### Contact: 
+ michaeljamesplichta@gmail.com
+
+### Questions
+If you have any questions please email me directly. Thank You 

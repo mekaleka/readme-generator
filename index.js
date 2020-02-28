@@ -65,26 +65,39 @@ inquirer
 ## Project Name: 
  ${data.projectname}
 
-## DESCRIPTION: 
+## Table of Contents:
+- [Description](#Description)
+- [Install-Dependencies](#Install-Dependencies)
+- [Test](#Test)
+- [Repository](#Repository)
+- [Contributing](#Contributing)
+- [Followers](#Followers)
+- [Contact](#Contact)
+- [Questions](#Questions)
+
+### Description: 
  ${data.description}
 
-## INSTALL DEPENDENCIES: 
+### Install Dependencies: 
 \`${data.dependencies}\`
 
-## TEST: 
+### Test: 
 \`${data.test}\`
 
-## REPO: 
+### Repository: 
  ${data.repo}
 
-## FOLLOWERS: 
- ${apidata.data.followers}
-
-## CONTRIBUTING: 
+### Contributing: 
  ${data.contributing}
 
-## CONTACT: 
- ${apidata.data.email || "No contact information"}
+### Followers: 
+${apidata.data.followers}
+
+### Contact: 
+ ${apidata.data.email || "michaeljamesplichta@gmail.com"}
+
+### Questions
+If you have any questions please email me directly. Thank You 
 `;
       var filename = "README.md";
 
