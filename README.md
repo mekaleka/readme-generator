@@ -1,7 +1,6 @@
+# Michael James Plichta
 
-# Michael Plichta
-
-![github-med](https://drive.google.com/open?id=1GT8PQn6UbsHRmj6qVQDEFSssDyf3EoTj)
+![github-med](https://avatars2.githubusercontent.com/u/58678985?s=460&v=4)
  
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -12,17 +11,26 @@
 - [Description](#Description)
 - [Install-Dependencies](#Install-Dependencies)
 - [Test](#Test)
+- [Repository](#Repository)
+- [Contributing](#Contributing)
+- [Followers](#Followers)
 - [Contact](#Contact)
 - [Questions](#Questions)
 
 ## Description: 
- This app creates a good readme so you can easily display your repository and the details about it.
+ This app creates a good readme.
 
 ## Install Dependencies: 
 `npm install`
 
 ## Test: 
 `npm run tests`
+
+## Repository: 
+ Keep creating good readme's.
+
+## Contributing: 
+ Its free with MIT.
 
 ## Contact: 
  michaeljamesplichta@gmail.com
