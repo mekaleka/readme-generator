@@ -38,7 +38,5 @@
 ## Contact: 
  michaeljamesplichta@gmail.com
 
-### [Link to deployd App](https://mekaleka.github.io/readme-generator/)
-
 ## Questions
 If you have any questions please email me directly. Thank You 
